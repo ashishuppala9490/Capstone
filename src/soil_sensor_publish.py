@@ -10,6 +10,8 @@ ENDPOINT = "account_endpoint_for_things.amazonaws.com"
 PATH_TO_CERT = "..\\config"
 TOPIC = "iot/agritech"
 
+
+
 # AWS class to create number of objects (devices)
 class AWS():
     # Constructor that accepts client id that works as device id and file names for different devices
